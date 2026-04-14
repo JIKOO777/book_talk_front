@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Talk — Ресми сайт</title>
-    <link rel="stylesheet" href="style.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
 </head>
+
+<body>
+
 <header>
     <div class="logo">
-        <img src="images/icon.png" alt="Book Talk">
+        <img src="./images/icon.png" alt="Book Talk">
         <span class="logo-text">Book Talk</span>
     </div>
     <ul class="nav-links">
@@ -53,14 +58,12 @@
     </div>
 </div>
 
-<!-- ===== REVIEWS SECTION ===== -->
+<!-- REVIEWS SECTION -->
 <section class="content-section" id="reviews-section">
     <div class="section-title">Оқырмандар <span>пікірлері</span></div>
     <div class="section-sub">Нақты оқырмандардың ойлары мен бағалары</div>
 
-    <div class="reviews-grid" id="reviewsGrid">
-        <!-- Rendered by JS -->
-    </div>
+    <div class="reviews-grid" id="reviewsGrid"></div>
 
     <!-- REVIEW FORM -->
     <div class="review-form-box">
@@ -92,18 +95,14 @@
     </div>
 </section>
 
-<!-- ===== DISCUSSION SECTION ===== -->
+<!-- DISCUSSION SECTION -->
 <section class="content-section" id="discuss-section" style="padding-top: 0;">
     <div class="section-title">Кітап <span>Талқылауы</span></div>
     <div class="section-sub">Ойларыңызды бөлісіп, пікірталас ашыңыз</div>
 
     <div class="discuss-layout">
-        <!-- Thread list -->
-        <div>
-            <div id="threadsContainer"></div>
-        </div>
+        <div id="threadsContainer"></div>
 
-        <!-- Join discussion form -->
         <div>
             <div class="review-form-box">
                 <h3>💬 Талқылауға қосылу</h3>
@@ -127,7 +126,7 @@
     </div>
 </section>
 
-<!-- ===== CATALOG SECTION ===== -->
+<!-- CATALOG SECTION -->
 <section class="content-section" id="catalog-section" style="padding-top: 0;">
     <div class="section-title">Кітаптар <span>Каталогы</span></div>
     <div class="section-sub">48 таңдаулы кітап — қазақ, орыс және әлем әдебиеті</div>
@@ -143,7 +142,7 @@
     <div class="books-grid" id="booksGrid"></div>
 </section>
 
-<!-- ===== ABOUT MODAL ===== -->
+<!-- ABOUT MODAL -->
 <div id="aboutModal" class="modal">
     <div class="modal-content">
         <span class="close-btn" onclick="closeModal('aboutModal')">×</span>
@@ -157,7 +156,7 @@
     </div>
 </div>
 
-<!-- ===== BOOK DETAIL MODAL ===== -->
+<!-- BOOK DETAIL MODAL -->
 <div id="bookModal" class="modal">
     <div class="modal-content" style="max-width:520px;">
         <span class="close-btn" onclick="closeModal('bookModal')">×</span>
@@ -175,27 +174,24 @@
     </div>
 </div>
 
-<!-- ===== SUMMARY MODAL ===== -->
+<!-- SUMMARY MODAL -->
 <div id="summaryModal" class="modal">
     <div class="modal-content" style="max-width:580px;">
         <span class="close-btn" onclick="closeModal('summaryModal')">×</span>
         <h2 id="summaryModalTitle" style="margin-bottom:8px;">🎬 Қысқаша мазмұны</h2>
         <div id="summaryModalAuthor" style="color:var(--muted);font-size:0.9rem;margin-bottom:20px;"></div>
-
-        <!-- Video upload area -->
         <div class="video-upload-area" id="videoArea" style="cursor:default;"></div>
         <div id="summaryText" style="margin-top:18px;color:rgba(240,236,228,0.8);line-height:1.8;font-size:0.92rem;padding:14px;background:rgba(255,255,255,0.03);border-radius:10px;border:1px solid var(--border);"></div>
     </div>
 </div>
 
-<!-- ===== FULL BOOK MODAL ===== -->
+<!-- FULL BOOK MODAL -->
 <div id="fullBookModal" class="modal">
     <div class="modal-content" style="max-width:580px;">
         <span class="close-btn" onclick="closeModal('fullBookModal')">×</span>
         <h2 id="fullBookModalTitle" style="margin-bottom:6px;">📖 Толық кітап</h2>
         <div id="fullBookModalAuthor" style="color:var(--muted);font-size:0.9rem;margin-bottom:20px;"></div>
 
-        <!-- PDF view (when uploaded) -->
         <div id="pdfViewSection" style="display:none;">
             <div class="fullbook-option" onclick="openPdf()" style="margin-bottom:12px;">
                 <div class="fullbook-icon">📄</div>
@@ -238,5 +234,7 @@
 
 <!-- TOAST -->
 <div class="toast" id="toast"></div>
-<script src="script.js"></script>
+
+<script src="./script.js"></script>
+</body>
 </html>
