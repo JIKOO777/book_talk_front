@@ -28,7 +28,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Арал теңізіндегі балықшылар өмірі туралы роман.",
         pdf: "https://soyle.kz/upload/orig/article/385525_1608554350.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID2"
+        video: "https://youtube.com/shorts/d2wQrO5b61M?si=WYgNHnTaOWgxBkzN"
     },
     {
         id: 3,
@@ -43,7 +43,7 @@ const BOOKS = [
         rating: 4.7,
         desc: "Салтанат есімді кейіпкердің тағдыры баяндалады.",
         pdf: "https://ru.scribd.com/document/792928021/%D0%94%D1%83%D0%BB%D0%B0%D1%82-%D0%98%D1%81%D0%B0%D0%B1%D0%B5%D0%BA%D0%BE%D0%B2-%D0%93%D0%B0%D1%83%D1%85%D0%B0%D1%80%D1%82%D0%B0%D1%81",
-        video: "https://www.youtube.com/embed/VIDEO_ID3"
+        video: "https://youtube.com/shorts/DI9dqAv1K2o?si=xQgXfsOJiCas3AX4"
     },
     {
         id: 4,
@@ -58,7 +58,7 @@ const BOOKS = [
         rating: 4.6,
         desc: "Қазақ қыздарының тағдыры туралы тарихи роман.",
         pdf: "https://pubhtml5.com/gzki/pbhw/",
-        video: "https://www.youtube.com/embed/VIDEO_ID4"
+        video: "https://youtube.com/shorts/lDG9LlVSETA?si=Zl9wKqt54vGdFeG9"
     },
     {
         id: 5,
@@ -73,7 +73,7 @@ const BOOKS = [
         rating: 4.8,
         desc: "Балалар арасындағы достық туралы шығарма.",
         pdf: "https://cbs-saran.gov.kz/wp-content/uploads/2024/01/berdibek_so-pa-baev-meni-_atym_-ozha.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID5"
+        video: "https://youtube.com/shorts/-cxNt8vQMFc?si=Vnz5AvxG_HOqph0G"
     },
     {
         id: 6,
@@ -88,7 +88,7 @@ const BOOKS = [
         rating: 4.7,
         desc: "Қазақстан тарихындағы маңызды кезең туралы роман.",
         pdf: "https://pubhtml5.com/gzki/pmmd/",
-        video: "https://www.youtube.com/embed/VIDEO_ID6"
+        video: "https://youtube.com/shorts/F1Sfw-hJreM?si=V6W6fxcree_jQ06s"
     },
     {
         id: 7,
@@ -103,7 +103,7 @@ const BOOKS = [
         rating: 4.5,
         desc: "қарапайым ауыл баласының нағыз жауынгерге айналу жолы мен майдандағы ерлігі баяндалады.",
         pdf: "https://online.pubhtml5.com/gzki/vtxr/#p=1",
-        video: "https://www.youtube.com/embed/VIDEO_ID7"
+        video: "https://youtube.com/shorts/lBqfgVf2ywI?si=KTeVTEufHZgCY29w"
     },
     {
         id: 8,
@@ -118,7 +118,7 @@ const BOOKS = [
         rating: 4.6,
         desc: "Қазақ прозасының классикалық шығармасы.",
         pdf: "https://ru.scribd.com/document/844327648/%D3%98-%D0%9D%D2%B1%D1%80%D0%BF%D0%B5%D0%B8-%D1%96%D1%81-%D0%A1%D0%BE%D2%A3%D2%93%D1%8B-%D0%BF%D0%B0%D1%80%D1%8B%D0%B7",
-        video: "https://www.youtube.com/embed/VIDEO_ID8"
+        video: "https://youtube.com/shorts/5hnzeLgcSOI?si=qqwhfTRAOFmOcyum"
     },
 
     // ===== ОРЫС ӘДЕБИЕТІ =====
@@ -135,7 +135,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Наполеон соғысы кезіндегі қоғам туралы шығарма.",
         pdf: "https://tolstoy.ru/upload/iblock/519/voina-i-mir.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID9"
+        video: "https://youtube.com/shorts/B_o6YpvYA0o?si=ZIY5yRP37Gyue4OR"
     },
     {
         id: 10,
@@ -150,7 +150,7 @@ const BOOKS = [
         rating: 5.0,
         desc: "Мистикалық және философиялық роман.",
         pdf: "https://www.bulgakov.ru/pdf/Master-i-Margarita.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID10"
+        video: "https://youtube.com/shorts/WU2KyDY8vOo?si=uH733q1bbcAjft1f"
     },
     {
         id: 11,
@@ -165,7 +165,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Адам психологиясы туралы терең шығарма.",
         pdf: "https://www.100bestbooks.ru/files/Dostoevskyi_Prestuplenie_i_nakazanie.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID11"
+        video: "https://youtube.com/shorts/ek7VIiwMFiU?si=9vLDyWFvRzmwnZsM"
     },
     {
         id: 12,
@@ -180,7 +180,7 @@ const BOOKS = [
         rating: 4.8,
         desc: "Махаббат, міндет және қоғам туралы роман.",
         pdf: "https://ktm.kharkov.ua/files/upload/Tolstoyi_L_Anna_KareninaI.a6.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID12"
+        video: "https://youtube.com/shorts/hMgHWz3UeT8?si=J-Zk0jHDW5R00aLA"
     },
     {
         id: 13,
@@ -195,7 +195,7 @@ const BOOKS = [
         rating: 4.6,
         desc: "Ұрпақтар арасындағы қайшылықтар туралы роман.",
         pdf: "https://olehnik.ru/files/literatura/%D0%98.%20%D0%A2%D1%83%D1%80%D0%B3%D0%B5%D0%BD%D0%B5%D0%B2%20%D0%BE%D1%82%D1%86%D1%8B%20%D0%B8%20%D0%B4%D0%B5%D1%82%D0%B8%20.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID13"
+        video: "https://youtube.com/shorts/teStPN0aw3M?si=MRAxz9JDTHUt9Q5T"
     },
 
     // ===== ӘЛЕМ ӘДЕБИЕТІ =====
@@ -212,7 +212,7 @@ const BOOKS = [
         rating: 4.8,
         desc: "Арманды іздеу туралы танымал кітап.",
         pdf: "https://pubhtml5.com/gzki/vcgd/%D0%9F%D0%B0%D1%83%D0%BB%D0%BE_%D0%9A%D0%BE%D1%8D%D0%BB%D1%8C%D0%BE_%D0%90%D0%BB%D1%85%D0%B8%D0%BC%D0%B8%D0%BA/",
-        video: "https://www.youtube.com/embed/VIDEO_ID14"
+        video: "https://youtube.com/shorts/S0yITgHM4pY?si=3f7IyaotYfbLs1Bn"
     },
     {
         id: 16,
@@ -227,7 +227,7 @@ const BOOKS = [
         rating: 5.0,
         desc: "Философиялық ертегі.",
         pdf: "https://www.booksite.ru/archiv_new/02_2016/02.pdf?ysclid=l2hw0f03e8",
-        video: "https://www.youtube.com/embed/VIDEO_ID15"
+        video: "https://youtube.com/shorts/I_WNrmJZcRQ?si=cpTnYiRevm5Qn6fj"
     },
     {
         id: 17,
@@ -242,7 +242,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Сиқыр әлеміндегі оқиға.",
         pdf: "https://adebiportal.kz/upload/iblock/d0c/d0c6c691696e67053925bc9f280c3e75.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID16"
+        video: "https://youtube.com/shorts/dZt4zpeFC0Y?si=S5OBby1nB5wHPwdC"
     },
     {
         id: 18,
@@ -257,7 +257,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Тоталитарлық қоғам туралы антиутопия.",
         pdf: "https://boomdown.org/sites/default/files/1984_1948.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID17"
+        video: "https://youtube.com/shorts/HZy8EZe00nU?si=08ShyqR_quW6bX1A"
     },
     {
         id: 19,
@@ -272,7 +272,7 @@ const BOOKS = [
         rating: 4.7,
         desc: "Мумбай қаласындағы өмір туралы шытырман роман.",
         pdf: "https://ru.scribd.com/document/704415477/%D0%A0%D0%BE%D0%B1%D0%B5%D1%80%D1%82%D1%81-%D0%94%D1%8D%D0%B2%D0%B8%D0%B4-%D0%93%D1%80%D0%B5%D0%B3%D0%BE%D1%80%D0%B8-%D0%A8%D0%B0%D0%BD%D1%82%D0%B0%D1%80%D0%B0%D0%BC-1-%D0%A2%D0%BE%D0%BC",
-        video: "https://www.youtube.com/embed/VIDEO_ID18"
+        video: "https://youtube.com/shorts/crhLNQBVgBU?si=fNqsa5FJfGlkV0vB"
     },
 
     // ===== ҚАЗІРГІ ЗАМАН =====
@@ -289,7 +289,7 @@ const BOOKS = [
         rating: 4.8,
         desc: "Кішкентай әдеттердің күші туралы кітап.",
         pdf: "https://ru.scribd.com/document/678740442/%D0%90%D1%82%D0%BE%D0%BC-%D3%99%D0%B4%D0%B5%D1%82%D1%82%D0%B5%D1%80-%D0%94%D0%B6%D0%B5%D0%B9%D0%BC%D1%81-%D0%9A%D0%BB%D0%B8%D1%80",
-        video: "https://www.youtube.com/embed/VIDEO_ID19"
+        video: "https://youtube.com/shorts/VFNDbUO4EPg?si=P9HgDQBPBILu-rCR"
     },
     {
         id: 23,
@@ -304,7 +304,7 @@ const BOOKS = [
         rating: 4.8,
         desc: "Ойлау жүйелері туралы кітап.",
         pdf: "http://www.r-5.org/files/books/ethology/human-mind/thinking/Daniel_Kahneman-Thinking_Fast_and_Slow-RU.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID20"
+        video: "https://youtube.com/shorts/7OEGxwh3pM8?si=cpwboxMDraemfYzi"
     },
     {
         id: 24,
@@ -319,7 +319,7 @@ const BOOKS = [
         rating: 4.9,
         desc: "Адамзат тарихының қысқаша баяны.",
         pdf: "https://belousenko.de/books/publicism/harari_sapiens.pdf",
-        video: "https://www.youtube.com/embed/VIDEO_ID21"
+        video: "https://youtube.com/shorts/n9qV3wY58aI?si=ZMdP-cakn5DSx538"
     },
     {
         id: 25,
@@ -334,7 +334,7 @@ const BOOKS = [
         rating: 4.7,
         desc: "Қаржылық сауаттылық туралы кітап.",
         pdf: "https://ru.scribd.com/doc/83805164/kiosaki-Robert-%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D0%B9-%D0%BF%D0%B0%D0%BF%D0%B0-%D0%B1%D0%B5%D0%B4%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B0%D0%BF%D0%B0",
-        video: "https://www.youtube.com/embed/VIDEO_ID22"
+        video: "https://youtube.com/shorts/awP9FzJ6w1Y?si=C6iR4YpAUlSYS1aB"
     }
 ];
 
