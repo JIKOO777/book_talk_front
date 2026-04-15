@@ -620,6 +620,13 @@ function openSummaryModal() {
     openModal('summaryModal');
 }
 
+function backToBookModal() {
+    closeModal('summaryModal');
+    if (selectedBookForReview) {
+        showBook(selectedBookForReview.id);
+    }
+}
+
 function renderVideoArea(bookId, embedUrl) {
     const area = document.getElementById('videoArea');
     // Remove click handler — URL is set by developer in BOOKS object only
